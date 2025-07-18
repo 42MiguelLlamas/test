@@ -28,14 +28,13 @@ cd HappyRobot
 ## 3. Environment Variables
 Add the following to the Render environment:
 
-GOOGLE_CREDS_JSON: your Google service account credentials (as a full JSON string)
+- GOOGLE_CREDS_JSON: your Google service account credentials (as a full JSON string)
 
-SPREADSHEET_ID: the ID of the Google Sheet where logs will be stored
+- SPREADSHEET_ID: the ID of the Google Sheet where logs will be stored
 
-API_KEY: your custom API key used for protecting all endpoints
+- API_KEY: your custom API key used for protecting all endpoints
 
 ✅ Make sure the Google service account has editor access to the Google Sheet.
-
 
 
 
