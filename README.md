@@ -11,7 +11,7 @@ git clone https://github.com/cmartingu/HappyRobot.git
 cd HappyRobot
 ```
 
-## 2 . Create a new service on Render
+### 2 . Create a new service on Render
 - Go to https://dashboard.render.com/
 
 - Click New + → Web Service
@@ -25,7 +25,7 @@ cd HappyRobot
 	- Region: Choose the closest to your users
 	- Branch: main
 
-## 3. Environment Variables
+### 3. Environment Variables
 Add the following to the Render environment:
 
 - GOOGLE_CREDS_JSON: your Google service account credentials (as a full JSON string)
