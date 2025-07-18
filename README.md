@@ -19,16 +19,11 @@ Click New + → Web Service
 Connect your GitHub repo
 
 Configure the service:
-
-	-> Runtime: Docker
-
-	-> Build Command: (leave empty)
-
-	-> Start Command: (Render will use the CMD from your Dockerfile)
-
-	-> Region: Choose the closest to your users
-
-	-> Branch: main
+- Runtime: Docker
+- Build Command: (leave empty)
+- Start Command: (Render will use the CMD from your Dockerfile)
+- Region: Choose the closest to your users
+- Branch: main
 
 ## 3. Environment Variables
 Add the following to the Render environment:
@@ -67,16 +62,10 @@ This project includes a Dockerfile and is ready to run on any container-based de
 
 ## 📊 Output
 The log_result POST endpoint will write a new row to your Google Sheet with:
-
-Timestamp
-
-Carrier name
-
-Agreed rate
-
-Load ID
-
-Sentiment
-
-Outcome
+- Timestamp
+- Carrier name
+- Agreed rate
+- Load ID
+- Sentiment
+- Outcome
 
