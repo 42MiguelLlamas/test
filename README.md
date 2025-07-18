@@ -30,7 +30,7 @@ Configure the service:
 
 	-> Branch: main
 
-3. Environment Variables
+## 3. Environment Variables
 Add the following to the Render environment:
 
 GOOGLE_CREDS_JSON: your Google service account credentials (as a full JSON string)
@@ -44,7 +44,7 @@ API_KEY: your custom API key used for protecting all endpoints
 
 
 
-🧱 API Endpoints
+## 🧱 API Endpoints
 Method	Endpoint	Description
 GET	/search_loads	Returns a random load or filtered by equipment
 GET	/search_loads/{phy_city}	Returns the closest load to the specified city
@@ -60,10 +60,10 @@ curl -X POST https://happyrobot.onrender.com/log_result \
   -d '{"carrier_name": "John D. Trucking", "agreed_rate": 1550, "load_id": "L003", "sentiment": "positive", "outcome": "deal_closed"}'
 ```
 
-🐳 Docker
+## 🐳 Docker
 This project includes a Dockerfile and is ready to run on any container-based deployment.
 
-📊 Output
+## 📊 Output
 The log_result POST endpoint will write a new row to your Google Sheet with:
 
 Timestamp
