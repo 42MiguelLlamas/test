@@ -8,7 +8,6 @@ HappyRobot is the backend service for an AI-powered phone call assistant. It’s
 
 ``` bash
 git clone https://github.com/cmartingu/HappyRobot.git
-cd HappyRobot
 ```
 
 ### 2 . Create a new service on Render
