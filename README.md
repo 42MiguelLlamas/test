@@ -12,18 +12,18 @@ cd HappyRobot
 ```
 
 ## 2 . Create a new service on Render
-Go to https://dashboard.render.com/
+- Go to https://dashboard.render.com/
 
-Click New + → Web Service
+- Click New + → Web Service
 
-Connect your GitHub repo
+- Connect your GitHub repo
 
-Configure the service:
-- Runtime: Docker
-- Build Command: (leave empty)
-- Start Command: (Render will use the CMD from your Dockerfile)
-- Region: Choose the closest to your users
-- Branch: main
+- Configure the service:
+	- Runtime: Docker
+	- Build Command: (leave empty)
+	- Start Command: (Render will use the CMD from your Dockerfile)
+	- Region: Choose the closest to your users
+	- Branch: main
 
 ## 3. Environment Variables
 Add the following to the Render environment:
