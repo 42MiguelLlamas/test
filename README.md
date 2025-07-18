@@ -45,10 +45,12 @@ API_KEY: your custom API key used for protecting all endpoints
 
 
 ## 🧱 API Endpoints
-Method	Endpoint	Description
-GET	/search_loads	Returns a random load or filtered by equipment
-GET	/search_loads/{phy_city}	Returns the closest load to the specified city
-POST	/log_result	Logs call result to Google Sheets
+| Method | Endpoint                   | Description                                    |
+| ------ | -------------------------- | ---------------------------------------------- |
+| GET    | `/search_loads`            | Returns a random load or filtered by equipment |
+| GET    | `/search_loads/{phy_city}` | Returns the closest load to the specified city |
+| POST   | `/log_result`              | Logs call result to Google Sheets              |
+
 
 🔐 All endpoints require an API key via the header x-api-key.
 
